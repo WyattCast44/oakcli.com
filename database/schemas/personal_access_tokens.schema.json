@@ -1,0 +1,14 @@
+{
+    "name": "personal_access_tokens",
+    "schema": {
+        "id": "bigint",
+        "tokenable_type": "string",
+        "tokenable_id": "bigint",
+        "name": "string",
+        "token": "string",
+        "abilities": "text",
+        "last_used_at": "datetime",
+        "created_at": "datetime",
+        "updated_at": "datetime"
+    }
+}
