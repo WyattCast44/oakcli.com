@@ -1,6 +1,8 @@
-# B-Vault
+# Oak CLI
 
-## Forge Deployment Script
+A python command line application framework.
+
+## Deployment Script
 
 ```bash
 php artisan migrate
