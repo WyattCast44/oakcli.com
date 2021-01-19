@@ -59,13 +59,13 @@
              class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
             <div class="flex justify-center space-x-6 md:order-2">
     
-                <a href="#"
+                <a href="{{ config('social.github') }}"
                    class="text-yellow-200 hover:text-yellow-300">
                     <span class="sr-only">GitHub</span>
                     <x-icon-github class="w-5 h-5" />
                 </a>
     
-                <a href="#"
+                <a href="{{ config('social.twitter') }}"
                    class="text-yellow-200 hover:text-yellow-300">
                     <span class="sr-only">Twitter</span>
                     <x-icon-twitter class="w-5 h-5" />

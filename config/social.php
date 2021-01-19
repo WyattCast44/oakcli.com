@@ -13,4 +13,6 @@ return [
 
     'github' => 'https://github.com/wyattcast44/oak',
 
+    'twitter' => 'https://twitter.com/oakcli1',
+
 ];
