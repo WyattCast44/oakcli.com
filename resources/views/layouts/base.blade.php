@@ -15,6 +15,10 @@
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
     <livewire:scripts />
+
+    @production
+        <script src="https://reptile.wyattblogs.com/script.js" data-site="QDQHONFD" defer></script>
+    @endproduction
 </head>
 <body class="font-sans antialiased leading-none bg-yellow-100">
     @yield('body')
