@@ -16,7 +16,7 @@
 
             <nav class="flex items-center mt-5 space-x-3 font-serif text-xl font-semibold">
 
-                <a href="#" class="px-5 py-3 text-yellow-200 rounded outline-none hover:no-underline hover:text-yellow-200 hover:bg-green-700 focus:ring-yellow-100 focus:ring-1 focus:bg-green-700 hover:bg-opacity-75">
+                <a href="{{ route('docs.index') }}" class="px-5 py-3 text-yellow-200 rounded outline-none hover:no-underline hover:text-yellow-200 hover:bg-green-700 focus:ring-yellow-100 focus:ring-1 focus:bg-green-700 hover:bg-opacity-75">
                     Docs
                 </a>
                 
@@ -53,5 +53,30 @@
     <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
         @yield('content')
     </div>
+
+    <footer class="bg-green-700 topo-bg">
+        <div
+             class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+            <div class="flex justify-center space-x-6 md:order-2">
+    
+                <a href="#"
+                   class="text-yellow-200 hover:text-yellow-300">
+                    <span class="sr-only">GitHub</span>
+                    <x-icon-github class="w-5 h-5" />
+                </a>
+    
+                <a href="#"
+                   class="text-yellow-200 hover:text-yellow-300">
+                    <span class="sr-only">Twitter</span>
+                    <x-icon-twitter class="w-5 h-5" />
+                </a>
+            </div>
+            <div class="mt-8 md:mt-0 md:order-1">
+                <p class="text-base text-center text-yellow-200">
+                    &copy; 2021 Python Oak CLI, All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
     
 @endsection
