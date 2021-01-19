@@ -37,7 +37,7 @@
             <div class="flex items-center justify-center space-x-3">
                 
                 <a href="{{ config('social.github') }}" class="px-5 py-3 text-yellow-200 border border-yellow-100 rounded outline-none hover:no-underline hover:text-yellow-200 hover:bg-green-700 focus:ring-yellow-100 focus:ring-1 focus:bg-green-700 hover:bg-opacity-75">
-                    Get Started <x-icon-arrow-right class="w-5 h-5 ml-1" />
+                    Get Started <x-icon-arrow-right class="inline-block w-5 h-5 ml-1" />
                 </a>
 
                 <a href="{{ config('social.github') }}" class="px-5 py-3 text-yellow-200 border border-yellow-100 rounded outline-none hover:no-underline hover:text-yellow-200 hover:bg-green-700 focus:ring-yellow-100 focus:ring-1 focus:bg-green-700 hover:bg-opacity-75">
