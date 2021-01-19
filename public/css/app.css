@@ -8069,6 +8069,30 @@ select {
   background-size: contain;
 }
 
+.bg-size-10 {
+  background-size: 10%;
+}
+
+.bg-size-20 {
+  background-size: 20%;
+}
+
+.bg-size-25 {
+  background-size: 25%;
+}
+
+.bg-size-30 {
+  background-size: 30%;
+}
+
+.bg-size-50 {
+  background-size: 50%;
+}
+
+.bg-size-75 {
+  background-size: 75%;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -38723,6 +38747,30 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
   }
 
+  .sm\:bg-size-10 {
+    background-size: 10%;
+  }
+
+  .sm\:bg-size-20 {
+    background-size: 20%;
+  }
+
+  .sm\:bg-size-25 {
+    background-size: 25%;
+  }
+
+  .sm\:bg-size-30 {
+    background-size: 30%;
+  }
+
+  .sm\:bg-size-50 {
+    background-size: 50%;
+  }
+
+  .sm\:bg-size-75 {
+    background-size: 75%;
+  }
+
   .sm\:border-collapse {
     border-collapse: collapse;
   }
@@ -69265,6 +69313,30 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:bg-contain {
     background-size: contain;
+  }
+
+  .md\:bg-size-10 {
+    background-size: 10%;
+  }
+
+  .md\:bg-size-20 {
+    background-size: 20%;
+  }
+
+  .md\:bg-size-25 {
+    background-size: 25%;
+  }
+
+  .md\:bg-size-30 {
+    background-size: 30%;
+  }
+
+  .md\:bg-size-50 {
+    background-size: 50%;
+  }
+
+  .md\:bg-size-75 {
+    background-size: 75%;
   }
 
   .md\:border-collapse {
@@ -99811,6 +99883,30 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
   }
 
+  .lg\:bg-size-10 {
+    background-size: 10%;
+  }
+
+  .lg\:bg-size-20 {
+    background-size: 20%;
+  }
+
+  .lg\:bg-size-25 {
+    background-size: 25%;
+  }
+
+  .lg\:bg-size-30 {
+    background-size: 30%;
+  }
+
+  .lg\:bg-size-50 {
+    background-size: 50%;
+  }
+
+  .lg\:bg-size-75 {
+    background-size: 75%;
+  }
+
   .lg\:border-collapse {
     border-collapse: collapse;
   }
@@ -130355,6 +130451,30 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
   }
 
+  .xl\:bg-size-10 {
+    background-size: 10%;
+  }
+
+  .xl\:bg-size-20 {
+    background-size: 20%;
+  }
+
+  .xl\:bg-size-25 {
+    background-size: 25%;
+  }
+
+  .xl\:bg-size-30 {
+    background-size: 30%;
+  }
+
+  .xl\:bg-size-50 {
+    background-size: 50%;
+  }
+
+  .xl\:bg-size-75 {
+    background-size: 75%;
+  }
+
   .xl\:border-collapse {
     border-collapse: collapse;
   }
@@ -160897,6 +161017,30 @@ h1, h2, h3, h4, h5, h6 {
 
   .\32xl\:bg-contain {
     background-size: contain;
+  }
+
+  .\32xl\:bg-size-10 {
+    background-size: 10%;
+  }
+
+  .\32xl\:bg-size-20 {
+    background-size: 20%;
+  }
+
+  .\32xl\:bg-size-25 {
+    background-size: 25%;
+  }
+
+  .\32xl\:bg-size-30 {
+    background-size: 30%;
+  }
+
+  .\32xl\:bg-size-50 {
+    background-size: 50%;
+  }
+
+  .\32xl\:bg-size-75 {
+    background-size: 75%;
   }
 
   .\32xl\:border-collapse {

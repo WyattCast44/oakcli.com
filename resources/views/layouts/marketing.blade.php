@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <header class="pt-5 bg-green-800 topo-bg">
+    <header class="pt-5 bg-green-800 topo-bg lg:bg-size-20 bg-size-75">
 
         <div class="flex flex-col items-center justify-between max-w-4xl mx-auto md:flex-row">
             
