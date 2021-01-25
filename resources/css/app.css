@@ -17,6 +17,18 @@ a:hover {
     @apply text-green-900 underline;
 }
 
+.inverted-link {
+    @apply text-yellow-200;
+}
+
+.inverted-link:hover {
+    @apply underline;
+}
+
+.inverted-links>a {
+    @apply inverted-link;
+}
+
 h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
 }
