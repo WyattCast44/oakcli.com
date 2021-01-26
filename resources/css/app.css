@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/**
+*
+* Basic Link Styling
+*
+*/
+
 a {
     @apply text-green-700;
 }
@@ -9,13 +15,11 @@ a:hover {
     @apply text-green-900 underline;
 }
 
-.btn-link {
-    @apply text-green-700;
-}
-
-.btn-link:hover {
-    @apply text-green-900 underline;
-}
+/**
+*
+* Inverted link colors 
+* 
+*/
 
 .inverted-link {
     @apply text-yellow-200;
@@ -28,6 +32,26 @@ a:hover {
 .inverted-links>a {
     @apply inverted-link;
 }
+
+/**
+*
+* Style some buttons like links
+* 
+*/
+
+.btn-link {
+    @apply text-green-700;
+}
+
+.btn-link:hover {
+    @apply text-green-900 underline;
+}
+
+/**
+*
+* Basic header typography
+* 
+*/
 
 h1, h2, h3, h4, h5, h6 {
     @apply font-serif;

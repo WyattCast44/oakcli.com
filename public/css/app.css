@@ -32707,6 +32707,12 @@ select {
           animation: bounce 1s infinite;
 }
 
+/**
+*
+* Basic Link Styling
+*
+*/
+
 a {
   --tw-text-opacity: 1;
   color: rgba(4, 120, 87, var(--tw-text-opacity));
@@ -32718,16 +32724,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.btn-link {
-  --tw-text-opacity: 1;
-  color: rgba(4, 120, 87, var(--tw-text-opacity));
-}
-
-.btn-link:hover {
-  --tw-text-opacity: 1;
-  color: rgba(6, 78, 59, var(--tw-text-opacity));
-  text-decoration: underline;
-}
+/**
+*
+* Inverted link colors 
+* 
+*/
 
 .inverted-link {
   --tw-text-opacity: 1;
@@ -32746,6 +32747,29 @@ a:hover {
 .inverted-links>a:hover {
   text-decoration: underline;
 }
+
+/**
+*
+* Style some buttons like links
+* 
+*/
+
+.btn-link {
+  --tw-text-opacity: 1;
+  color: rgba(4, 120, 87, var(--tw-text-opacity));
+}
+
+.btn-link:hover {
+  --tw-text-opacity: 1;
+  color: rgba(6, 78, 59, var(--tw-text-opacity));
+  text-decoration: underline;
+}
+
+/**
+*
+* Basic header typography
+* 
+*/
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Fraunces, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
